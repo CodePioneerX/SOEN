@@ -105,6 +105,8 @@ public class CashierCalculator
 		System.out.printf("GST: 		    $ %6.2f%n",subGst);
 		System.out.printf("QST: 		    $ %6.2f%n",subQst);
 		System.out.printf("Total: 		    $ %6.2f%n",total);
+		
+		keyboard.close();		//Closing the Scanner
 	}
 
 }
