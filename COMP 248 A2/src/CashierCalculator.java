@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 						//*****************************************
-						//*				WELCOME 				  *
+						//*		WELCOME 		  *
 						//*****************************************
 
 /* Calculator that asks for the user to enter number of items with a given limit, price of those items within
