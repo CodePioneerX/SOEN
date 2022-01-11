@@ -30,9 +30,9 @@ public class MyFirstProgram
 		// * This is a basic program that take input from user and based on the input calculates the various apps and songs they can purchase.
 
 		
-		Scanner keybord= new Scanner(System.in);
+		Scanner keyboard= new Scanner(System.in);
 		System.out.println("\nHow much money do you wish to prepay?");
-		int money= keybord.nextInt();
+		int money= keyboard.nextInt();
 		
 		System.out.println("With this amount, you will be able to purchase " + (money/3) + " app(s). You will then have "+ (money%3) +"$ left as a credit on your account.");
 		int apps= (money/7);
@@ -42,6 +42,8 @@ public class MyFirstProgram
 		System.out.println("Alternatively, for this amount, you will be able to purchase "+ apps + " song(s) and "+ amountOfApps + " app(s). You will then have "+ remainingBalance +"$ left as a credit on your\n" + "account.");
 		System.out.println("Thanks for Shopping at Best Music Store!");
 		//---------------------------------------------------------------------------------------------------
+		
+		keyboard.close();		//Closing the Scanner
 		
 	}
 
